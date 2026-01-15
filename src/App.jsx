@@ -50,6 +50,7 @@ function App() {
             { label: 'What we do', link: '#what-we-do' },
             { label: 'How it works', link: '#how-it-works' },
             { label: 'Features', link: '#features' },
+            { label: 'Pricing', link: 'pricing.html', external: true },
             { label: 'Contact', link: '#contact' }
           ]}
           displayItemNumbering

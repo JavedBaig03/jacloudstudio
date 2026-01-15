@@ -14,6 +14,7 @@ export default function Header({ scrolled }) {
         <nav className="header-nav">
           <a href="#what-we-do">What we do</a>
           <a href="#how-it-works">How it works</a>
+          <a onClick={() => window.open('pricing.html', '_blank')} style={{ cursor: 'pointer' }}>Pricing</a>
         </nav>
 
         {/* CTA */}

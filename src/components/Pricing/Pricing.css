@@ -1,0 +1,325 @@
+.pricing-section {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #e5e7eb 0%, #d1d5db 100%);
+  padding: 6rem 2rem;
+  color: #1f2937;
+}
+
+.pricing-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Header */
+.pricing-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.pricing-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+
+.pricing-subtitle {
+  font-size: 1.2rem;
+  color: #6b7280;
+  max-width: 800px;
+  margin: 0 auto 1rem;
+  line-height: 1.8;
+}
+
+/* Pricing Cards */
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.pricing-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  padding: 2.5rem;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(107, 114, 128, 0.5);
+  box-shadow: 0 20px 40px rgba(107, 114, 128, 0.15);
+}
+
+.pricing-card-highlight {
+  background: rgba(107, 114, 128, 0.05);
+  border: 2px solid #6b7280;
+  position: relative;
+}
+
+.pricing-card-highlight::before {
+  content: 'POPULAR';
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #6b7280 0%, #9ca3af 100%);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+
+.pricing-card-header {
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.plan-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.plan-price {
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #6b7280;
+}
+
+.period {
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin-left: 0.3rem;
+}
+
+.plan-description {
+  font-size: 0.95rem;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.pricing-card-body {
+  padding-top: 2rem;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  color: #374151;
+  font-size: 1rem;
+}
+
+.check-icon {
+  width: 20px;
+  height: 20px;
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+/* Pricing Note */
+.pricing-note {
+  background: rgba(107, 114, 128, 0.05);
+  border: 1px solid rgba(107, 114, 128, 0.2);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.pricing-note p {
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-note p:last-child {
+  margin-bottom: 0;
+}
+
+/* Why Choose Us */
+.why-choose-section {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.benefit-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 15px;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+}
+
+.benefit-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.benefit-card p {
+  color: #374151;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.contrast-text {
+  font-size: 1.3rem;
+  color: #6b7280;
+  margin-top: 2rem;
+}
+
+.contrast-text strong {
+  color: #6b7280;
+}
+
+/* Why Choose Each Plan */
+.choose-plan-section {
+  margin-bottom: 4rem;
+}
+
+.choose-plan-section .section-subtitle {
+  text-align: center;
+}
+
+.choose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.choose-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.choose-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.choose-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.choose-list li {
+  color: #374151;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.choose-list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #6b7280;
+  font-weight: bold;
+}
+
+/* CTA */
+.pricing-cta {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.cta-quote {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1f2937;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgba(107, 114, 128, 0.05);
+  border-left: 4px solid #6b7280;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pricing-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .pricing-title {
+    font-size: 2rem;
+  }
+
+  .pricing-subtitle {
+    font-size: 1rem;
+  }
+
+  .pricing-cards {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .price {
+    font-size: 2.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .cta-quote {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+  }
+
+  .benefits-grid,
+  .choose-grid {
+    grid-template-columns: 1fr;
+  }
+}

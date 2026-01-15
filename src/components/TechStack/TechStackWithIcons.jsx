@@ -35,7 +35,7 @@ const TechStackWithIcons = () => {
   return (
     <section style={{
       minHeight: '400px',
-      background: 'linear-gradient(180deg, #7e899a 0%, #000000 100%)',
+      background: 'linear-gradient(180deg, #94a3b8 10%, #000000 100%)',
       padding: '4rem 0',
       display: 'flex',
       flexDirection: 'column',
